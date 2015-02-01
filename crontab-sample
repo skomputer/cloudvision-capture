@@ -1,0 +1,2 @@
+0 * * * * ~/open-tunnel.sh >> ~/log/open-tunnel.log 2>&1
+* * * * * ~/repair-remote-mount.sh & ~/clear-remote-mount.sh >> ~/log/fix-remote-mount.log 2>&1
